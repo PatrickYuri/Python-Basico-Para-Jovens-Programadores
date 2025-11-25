@@ -67,3 +67,18 @@ print("Linha 02")
 # 8 - Quebra de linha dentro do texto (\n)
 print("Linha 01 \nLinha 02 \nLinha 03")
 
+# 9 - Tabulação com separador \t
+print("Item 1", "Item 2", "Item 3", sep="\t")
+
+#Item 1	Item 2	Item 3
+
+# Criar tabelas visuais sem bibliotecas externas
+print("Nome\tIdade\tProfissão")
+print("Kelly\t30\tBiomédica")
+print("Vicente\t22\tCientista de Dados")
+print("Patrick\t35\tProfessor")
+
+# Nome	Idade	Profissão
+# Kelly	30	Biomédica
+# Vicente	22	Cientista de Dados
+# Patrick	35	Professor
